@@ -18,7 +18,7 @@ func main() {
     url := `http://localhost:8080/`
     request := gorequest.New()
     
-    for i:=uint64(0); i<=(^uint64(0)); i+=1 {
+    for i:=(^uint64(0)); i>=uint64(0); i-=1 {
         var in testCase
         in.I = i
 
